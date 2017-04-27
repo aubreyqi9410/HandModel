@@ -1,0 +1,111 @@
+links	"base0" "base1" "base2" "base3" "base4" "base" "palm_link" "index_knuckle_link" "index_proximal_link" "index_middle_link" "index_distal_link" "little_knuckle_link" "little_proximal_link" "little_middle_link" "little_distal_link" "middle_knuckle_link" "middle_proximal_link" "middle_middle_link" "middle_distal_link" "ring_knuckle_link" "ring_proximal_link" "ring_middle_link" "ring_distal_link" "thumb_knuckle_link" "thumb_proximal_link" "thumb_middle_link" "thumb_distal_link" 
+
+parents	-1 0 1 2 3 4 5 6 7 8 9 6 11 12 13 6 15 16 17 6 19 20 21 6 23 24 25 
+
+axis	1 0 0	0 1 0	0 0 1	0 0 1	0 1 0	1 0 0	0 0 1	0 -1 0	1 0 0	1 0 0	1 0 0	0 -1 0	1 0 0	1 0 0	1 0 0	0 -1 0	1 0 0	1 0 0	1 0 0	0 -1 0	1 0 0	1 0 0	1 0 0	1 0 0	0 -1 0	0 -1 0	0 -1 0	
+
+jointtype	p p p r r r r r r r r r r r r r r r r r r r r r r r r 
+
+Tparent	1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0.02175 -0.002 0.099 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0.046 \
+1 0 0	0 1 0	0 0 1	0 0 0.027 \
+1 0 0	0 1 0	0 0 1	-0.04175 -0.003 0.079 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0.037 \
+1 0 0	0 1 0	0 0 1	0 0 0.0215 \
+1 0 0	0 1 0	0 0 1	-0.002 0.0015 0.0955 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0.0495 \
+1 0 0	0 1 0	0 0 1	0 0 0.033 \
+1 0 0	0 1 0	0 0 1	-0.02225 0.001 0.09 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0.048 \
+1 0 0	0 1 0	0 0 1	0 0 0.033 \
+0.811548 0 0.584286	0 1 0	-0.584286 0 0.811548	0.02475 -0.0125 0.0125 \
+1 0 0	0 1 0	0 0 1	0 0 0 \
+1 0 0	0 1 0	0 0 1	0 0 0.05415 \
+1 0 0	0 1 0	0 0 1	0 0 0.03803
+
+q	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+qmin	-inf -inf -inf -inf -inf -inf 0 -0.523599 0 0 0 -0.523599 0 0 0 -0.523599 0 0 0 -0.523599 0 0 0 0 0 0 0 
+
+qmax	inf inf inf inf inf inf 0 0.349 1.5708 1.5708 1.5708 0.69 1.5708 1.5708 1.5708 0.523599 1.5708 1.5708 1.5708 0.349 1.5708 1.5708 1.5708 1.5708 1.5708 1.5708 1.5708 
+
+geometry	"" "" "" "" "" "" "palm_link.tri" "" "index_proximal_link.tri" "index_middle_link.tri" "index_distal_link.tri" "" "little_proximal_link.tri" "little_middle_link.tri" "little_distal_link.tri" "" "middle_proximal_link.tri" "middle_middle_link.tri" "middle_distal_link.tri" "" "ring_proximal_link.tri" "ring_middle_link.tri" "ring_distal_link.tri" "" "thumb_proximal_link.tri" "thumb_middle_link.tri" "thumb_distal_link.tri" 
+
+mass	0 0 0 0 0 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 0.0001 
+
+com	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	0 0 0	
+
+inertia	0 0 0 0 0 0 0 0 0	0 0 0 0 0 0 0 0 0	0 0 0 0 0 0 0 0 0	0 0 0 0 0 0 0 0 0	0 0 0 0 0 0 0 0 0	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	1e-08 0 0 0 1e-08 0 0 0 1e-08	
+
+torquemax	0 0 0 0 0 inf inf 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 
+
+velmax	inf inf inf inf inf inf 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 
+
+accmax	inf inf inf inf inf inf 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 
+
+
+joint floating 5 -1
+joint weld 6
+joint normal 7
+joint normal 8
+joint normal 9
+joint normal 10
+joint normal 11
+joint normal 12
+joint normal 13
+joint normal 14
+joint normal 15
+joint normal 16
+joint normal 17
+joint normal 18
+joint normal 19
+joint normal 20
+joint normal 21
+joint normal 22
+joint normal 23
+joint normal 24
+joint normal 25
+joint normal 26
+
+
+driver normal 7
+driver normal 8
+driver normal 9
+driver normal 10
+driver normal 11
+driver normal 12
+driver normal 13
+driver normal 14
+driver normal 15
+driver normal 16
+driver normal 17
+driver normal 18
+driver normal 19
+driver normal 20
+driver normal 21
+driver normal 22
+driver normal 23
+driver normal 24
+driver normal 25
+driver normal 26
+
+
+servoP	100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 
+servoI	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+servoD	10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 
+
+dryFriction	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+viscousFriction	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+#geomscale 1 1 1 1 1 1 1 1.8 1.8 1.8 1.8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 

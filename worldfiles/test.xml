@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world>
+	<robot name="human_hand" file="../model/human_hand.rob" scale="1 1 0.8"/>
+</world>
